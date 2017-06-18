@@ -1,0 +1,5 @@
+Lesson 3 - How to write Go Code
+
+* Go program structure
+* Setting up the IDE
+* Testing a simple code
