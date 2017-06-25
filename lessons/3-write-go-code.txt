@@ -3,3 +3,32 @@ Lesson 3 - How to write Go Code
 * Go program structure
 * Setting up the IDE
 * Testing a simple code
+
+Go workspace folders
+* src folder: where all your source code will reside
+
+* pkg folder: destination folder for package objects
+
+* bin folder: where your built executables will reside
+
+Your Go program
+
+* Package main
+    #Package p1
+      - Package p4
+    #Package p2
+      - Package p5
+    #Package p3
+      - Package p6
+
+Private or Public
+SayHello - upper case, or camel case means it is exportable
+
+sayhello - lower case is not exportable, not shared with other packages, can not access it. 
+
+Go Tool
+* The Go tool is your best friend in your Go journey
+* Go build and Go install builds, and compiles your program
+* Go get gets your third party packages
+* Go fmt formats your code
+
